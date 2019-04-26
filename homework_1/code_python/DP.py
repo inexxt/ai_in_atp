@@ -1,5 +1,5 @@
 import sys
-from common import *
+from .common import *
 
 
 def resolution(S: CNF, lits: LIT):
@@ -15,7 +15,7 @@ def resolution(S: CNF, lits: LIT):
     return {(c1 | c2) - {l, -l} for c1 in S1 for c2 in S2} | S3, lits
 
 
-def DF(S: CNF, lits: LIT):
+def DP(S: CNF, lits: LIT):
     
     while True:
 
@@ -39,7 +39,7 @@ def DF(S: CNF, lits: LIT):
 def main(fname: str):
     num_lit, _, data = input_data(fname)
 
-    res = DF(data, set(range(1, num_lit + 1)))
+    res = DP(data, set(range(1, num_lit + 1)))
     print(res)
 
 

@@ -1,5 +1,5 @@
 import sys
-from common import *
+from .common import *
 from copy import deepcopy
 
 def DPLL(S: CNF, lits: LIT):

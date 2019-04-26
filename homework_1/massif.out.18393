@@ -1,0 +1,1253 @@
+desc: (none)
+cmd: python code_python/DPLL.py small_data/flat0000000000
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=8562106
+mem_heap_B=164463
+mem_heap_extra_B=2033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=12850609
+mem_heap_B=316261
+mem_heap_extra_B=2683
+mem_stacks_B=0
+heap_tree=detailed
+n4: 316261 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 283896 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 73752 0x1FFEFFE6CE: ???
+  n0: 56575 in 80 places, all below massif's threshold (1.00%)
+  n1: 33909 0x5DF4B2E: ???
+   n0: 33909 0x369C587948A4EAFE: ???
+  n0: 16576 0x249DCE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n2: 13200 0xFFFFFFFFFFFFFFFD: ???
+   n2: 11512 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 9248 0x411362E: ???
+     n1: 9248 0x153: ???
+      n1: 9248 0x1FE: ???
+       n1: 9248 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 9248 0x411362E: ???
+         n1: 9248 0x3FE: ???
+          n1: 9248 0x40660D6: ???
+           n1: 9248 0x411A16E: ???
+            n1: 9248 0x40B6C2E: ???
+             n1: 9248 0x411362E: ???
+              n1: 9248 0x69F37D510865756E: ???
+               n1: 9248 0xFFFFFFFFFFFFFFFD: ???
+                n1: 9248 0x2D6F7E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                 n1: 9248 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n0: 9248 0x1FFEFFE76E: ???
+    n0: 2264 in 4 places, all below massif's threshold (1.00%)
+   n0: 1688 in 1 place, below massif's threshold (1.00%)
+  n1: 9248 0x432CFE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n0: 9248 0x4111406: ???
+  n1: 7676 0x40660D6: ???
+   n0: 7676 in 12 places, all below massif's threshold (1.00%)
+  n1: 4632 0x40B65EE: ???
+   n1: 4632 0x1FFEFFE6BE: ???
+    n1: 4632 0x4066CA6: ???
+     n1: 4632 0xA8: ???
+      n1: 4632 0xFE: ???
+       n1: 4632 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 4632 0x450B3E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 4632 0x1FE: ???
+          n1: 4632 0x42CB3E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+           n1: 4632 0x40B65EE: ???
+            n1: 4632 0x40D4A96: ???
+             n1: 4632 0x4066CA6: ???
+              n1: 4632 0x42CB3E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+               n1: 4632 0xFFFFFFFFFFFFFFFD: ???
+                n1: 4632 0x4066CA6: ???
+                 n1: 4632 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 4632 0x42CCAE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                   n0: 4632 0x22581C: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 4632 0x4108E3E: ???
+   n1: 4632 0x1FFEFFE79E: ???
+    n1: 4632 0x4119436: ???
+     n1: 4632 0xA8: ???
+      n1: 4632 0xFE: ???
+       n1: 4632 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 4632 0x443F: ???
+         n1: 4632 0x1FE: ???
+          n1: 4632 0x4119436: ???
+           n1: 4632 0x4108E3E: ???
+            n1: 4632 0x409E57E: ???
+             n1: 4632 0x4119436: ???
+              n1: 4632 0xD2DD7B92441E15F6: ???
+               n1: 4632 0xFFFFFFFFFFFFFFFD: ???
+                n1: 4632 0x2D6F7E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                 n1: 4632 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n0: 4632 0x34CDA4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 3916 0x5E0DC86: ???
+   n1: 3916 0x40660D6: ???
+    n0: 3916 in 7 places, all below massif's threshold (1.00%)
+  n1: 3552 0x7A25FBB8C46737EE: ???
+   n1: 3552 0x45121E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n0: 3552 0xDAD: ???
+ n3: 17706 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 8192 0x1FE6CE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n1: 8192 0x369C587948A4EAFE: ???
+    n1: 8192 0x1FFEFFF6FE: ???
+     n0: 8192 0x329369: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 8192 0x407762E: ???
+   n1: 8192 0x369C587948A4EAFE: ???
+    n1: 8192 0x40A9A26: ???
+     n0: 8192 0x242374: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 1322 in 4 places, all below massif's threshold (1.00%)
+ n1: 7456 0x50801DF: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 7456 0x5080C92: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 7456 0x507FA42: _nl_find_locale (findlocale.c:153)
+    n1: 7456 0x507F22C: setlocale (setlocale.c:340)
+     n1: 7456 0x2EF90C: ??? (in /home/jacek/anaconda3/bin/python3.7)
+      n0: 7456 0xFFFFFFFD: ???
+ n0: 7203 in 29 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=19468892
+mem_heap_B=379245
+mem_heap_extra_B=3635
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=29152682
+mem_heap_B=547506
+mem_heap_extra_B=4310
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=33873208
+mem_heap_B=651028
+mem_heap_extra_B=5892
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=42677274
+mem_heap_B=721572
+mem_heap_extra_B=6764
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=51683426
+mem_heap_B=807230
+mem_heap_extra_B=7074
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=58009115
+mem_heap_B=839949
+mem_heap_extra_B=7051
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=65737088
+mem_heap_B=842983
+mem_heap_extra_B=7665
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=72938937
+mem_heap_B=907515
+mem_heap_extra_B=8301
+mem_stacks_B=0
+heap_tree=detailed
+n4: 907515 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n10: 789133 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 345298 in 413 places, all below massif's threshold (1.00%)
+  n1: 147488 0x418362E: ???
+   n1: 147488 0x27E1F4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 147488 0x40660D6: ???
+     n1: 147488 0x1553: ???
+      n1: 147488 0x1FFE: ???
+       n1: 147488 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 147488 0x72656B72616D5D: ???
+         n1: 147488 0x3FFE: ???
+          n1: 147488 0x418362E: ???
+           n1: 147488 0x4188D1E: ???
+            n1: 147488 0xFFFFFFFFFFFFFFFD: ???
+             n1: 147488 0x5E357DE: ???
+              n1: 147488 0x4188D1E: ???
+               n1: 147488 0x9C0: ???
+                n1: 147488 0xA6DA7D1F86A0869B: ???
+                 n0: 147488 0x26622D: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 72196 0x5E3017E: ???
+  n1: 26762 0x40660D6: ???
+   n0: 26762 in 27 places, all below massif's threshold (1.00%)
+  n2: 21512 0xFFFFFFFFFFFFFFFD: ???
+   n2: 16504 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 9248 0x411362E: ???
+     n1: 9248 0x153: ???
+      n1: 9248 0x1FE: ???
+       n1: 9248 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 9248 0x411362E: ???
+         n1: 9248 0x3FE: ???
+          n1: 9248 0x40660D6: ???
+           n1: 9248 0x411A16E: ???
+            n1: 9248 0x40B6C2E: ???
+             n1: 9248 0x411362E: ???
+              n1: 9248 0x69F37D510865756E: ???
+               n1: 9248 0xFFFFFFFFFFFFFFFD: ???
+                n1: 9248 0x2D6F7E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                 n1: 9248 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n0: 9248 0x1FFEFFE76E: ???
+    n0: 7256 in 8 places, all below massif's threshold (1.00%)
+   n0: 5008 in 1 place, below massif's threshold (1.00%)
+  n1: 18456 0x41697EE: ???
+   n1: 18456 0x4179896: ???
+    n1: 18456 0x415BDC6: ???
+     n1: 18456 0x2A8: ???
+      n1: 18456 0x3FE: ???
+       n1: 18456 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 18456 0x43709E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 18456 0x7FE: ???
+          n1: 18456 0x4098C26: ???
+           n1: 18456 0x41697EE: ???
+            n1: 18456 0x5E27C76: ???
+             n1: 18456 0x415BDC6: ???
+              n1: 18456 0x5B1E75122BD9354D: ???
+               n1: 18456 0xFFFFFFFFFFFFFFFD: ???
+                n1: 18456 0x5E541A6: ???
+                 n1: 18456 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 18456 0x5E54036: ???
+                   n0: 18456 0x40A4946: ???
+  n1: 18084 0x0: ???
+   n0: 17508 in 15 places, all below massif's threshold (1.00%)
+  n0: 14368 0x249DCE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 9248 0x432CFE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n0: 9248 0x4111406: ???
+  n1: 9248 0x421342E: ???
+   n1: 9248 0x1FFEFFA35E: ???
+    n1: 9248 0x4066CA6: ???
+     n1: 9248 0x153: ???
+      n1: 9248 0x1FE: ???
+       n1: 9248 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 9248 0x450B3E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 9248 0x3FE: ???
+          n1: 9248 0x44E57E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+           n1: 9248 0x421342E: ???
+            n1: 9248 0x6CF8276: ???
+             n1: 9248 0x4066CA6: ???
+              n1: 9248 0x44E57E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+               n1: 9248 0xFFFFFFFFFFFFFFFD: ???
+                n1: 9248 0x4066CA6: ???
+                 n1: 9248 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 9248 0x44E6EE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                   n0: 9248 0x22581C: ??? (in /home/jacek/anaconda3/bin/python3.7)
+ n2: 86378 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 37226 in 30 places, all below massif's threshold (1.00%)
+  n1: 16384 0x407762E: ???
+   n1: 16384 0x369C587948A4EAFE: ???
+    n0: 16384 in 2 places, all below massif's threshold (1.00%)
+ n0: 22422 in 40 places, all below massif's threshold (1.00%)
+ n2: 9582 0x20F3FA: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 9582 0x1100: ???
+   n1: 9582 0x369C587948A4EAFE: ???
+    n0: 9582 in 2 places, all below massif's threshold (1.00%)
+  n0: 0 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=77569209
+mem_heap_B=935812
+mem_heap_extra_B=8588
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=84049682
+mem_heap_B=999664
+mem_heap_extra_B=8784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=88802668
+mem_heap_B=1008472
+mem_heap_extra_B=8800
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=94894057
+mem_heap_B=1012456
+mem_heap_extra_B=8888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=100768373
+mem_heap_B=1020160
+mem_heap_extra_B=8904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=108388067
+mem_heap_B=1053784
+mem_heap_extra_B=8976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=117513815
+mem_heap_B=1078496
+mem_heap_extra_B=9048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=125396417
+mem_heap_B=1104480
+mem_heap_extra_B=9080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=133078309
+mem_heap_B=1146968
+mem_heap_extra_B=9104
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1146968 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n8: 839610 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 411988 in 507 places, all below massif's threshold (1.00%)
+  n1: 147488 0x418362E: ???
+   n1: 147488 0x27E1F4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 147488 0x40660D6: ???
+     n1: 147488 0x1553: ???
+      n1: 147488 0x1FFE: ???
+       n1: 147488 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 147488 0x72656B72616D5D: ???
+         n1: 147488 0x3FFE: ???
+          n1: 147488 0x418362E: ???
+           n1: 147488 0x4188D1E: ???
+            n1: 147488 0xFFFFFFFFFFFFFFFD: ???
+             n1: 147488 0x5E357DE: ???
+              n1: 147488 0x4188D1E: ???
+               n1: 147488 0x9C0: ???
+                n1: 147488 0xA6DA7D1F86A0869B: ???
+                 n0: 147488 0x26622D: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 72196 0x5E3017E: ???
+  n1: 27914 0x40660D6: ???
+   n0: 27914 in 29 places, all below massif's threshold (1.00%)
+  n2: 21512 0xFFFFFFFFFFFFFFFD: ???
+   n1: 16504 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n0: 16504 in 9 places, all below massif's threshold (1.00%)
+   n0: 5008 in 1 place, below massif's threshold (1.00%)
+  n1: 18456 0x41697EE: ???
+   n1: 18456 0x4179896: ???
+    n1: 18456 0x415BDC6: ???
+     n1: 18456 0x2A8: ???
+      n1: 18456 0x3FE: ???
+       n1: 18456 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 18456 0x43709E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 18456 0x7FE: ???
+          n1: 18456 0x4098C26: ???
+           n1: 18456 0x41697EE: ???
+            n1: 18456 0x5E27C76: ???
+             n1: 18456 0x415BDC6: ???
+              n1: 18456 0x5B1E75122BD9354D: ???
+               n1: 18456 0xFFFFFFFFFFFFFFFD: ???
+                n1: 18456 0x5E541A6: ???
+                 n1: 18456 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 18456 0x5E54036: ???
+                   n0: 18456 0x40A4946: ???
+  n1: 18084 0x0: ???
+   n0: 17508 in 15 places, all below massif's threshold (1.00%)
+  n0: 14368 0x249DCE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+ n5: 272746 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 114688 0x6D5D42E: ???
+   n1: 114688 0x369C587948A4EAFE: ???
+    n0: 114688 in 20 places, all below massif's threshold (1.00%)
+  n0: 45418 in 40 places, all below massif's threshold (1.00%)
+  n1: 32768 0x4523FE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n1: 32768 0x369C587948A4EAFE: ???
+    n1: 32768 0x6D4D5C6: ???
+     n1: 32768 0x242374: ??? (in /home/jacek/anaconda3/bin/python3.7)
+      n1: 32768 0x6D96206: ???
+       n0: 32768 0x369C587948A4EAFE: ???
+  n1: 20480 0xA: ???
+   n1: 20480 0x369C587948A4EAFE: ???
+    n0: 20480 in 11 places, all below massif's threshold (1.00%)
+  n1: 16384 0x407762E: ???
+   n1: 16384 0x369C587948A4EAFE: ???
+    n0: 16384 in 2 places, all below massif's threshold (1.00%)
+ n0: 34612 in 42 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=137563706
+mem_heap_B=1137448
+mem_heap_extra_B=9160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=144549931
+mem_heap_B=1161224
+mem_heap_extra_B=9192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=151111664
+mem_heap_B=1194168
+mem_heap_extra_B=9216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=157799737
+mem_heap_B=1205856
+mem_heap_extra_B=9280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=166174190
+mem_heap_B=1219640
+mem_heap_extra_B=9288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=172476660
+mem_heap_B=1252584
+mem_heap_extra_B=9312
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1252584 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n8: 841754 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 414132 in 527 places, all below massif's threshold (1.00%)
+  n1: 147488 0x418362E: ???
+   n1: 147488 0x27E1F4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 147488 0x40660D6: ???
+     n1: 147488 0x1553: ???
+      n1: 147488 0x1FFE: ???
+       n1: 147488 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 147488 0x72656B72616D5D: ???
+         n1: 147488 0x3FFE: ???
+          n1: 147488 0x418362E: ???
+           n1: 147488 0x4188D1E: ???
+            n1: 147488 0xFFFFFFFFFFFFFFFD: ???
+             n1: 147488 0x5E357DE: ???
+              n1: 147488 0x4188D1E: ???
+               n1: 147488 0x9C0: ???
+                n1: 147488 0xA6DA7D1F86A0869B: ???
+                 n0: 147488 0x26622D: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 72196 0x5E3017E: ???
+  n1: 27914 0x40660D6: ???
+   n0: 27914 in 29 places, all below massif's threshold (1.00%)
+  n2: 21512 0xFFFFFFFFFFFFFFFD: ???
+   n1: 16504 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n0: 16504 in 9 places, all below massif's threshold (1.00%)
+   n0: 5008 in 1 place, below massif's threshold (1.00%)
+  n1: 18456 0x41697EE: ???
+   n1: 18456 0x4179896: ???
+    n1: 18456 0x415BDC6: ???
+     n1: 18456 0x2A8: ???
+      n1: 18456 0x3FE: ???
+       n1: 18456 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 18456 0x43709E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 18456 0x7FE: ???
+          n1: 18456 0x4098C26: ???
+           n1: 18456 0x41697EE: ???
+            n1: 18456 0x5E27C76: ???
+             n1: 18456 0x415BDC6: ???
+              n1: 18456 0x5B1E75122BD9354D: ???
+               n1: 18456 0xFFFFFFFFFFFFFFFD: ???
+                n1: 18456 0x5E541A6: ???
+                 n1: 18456 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 18456 0x5E54036: ???
+                   n0: 18456 0x40A4946: ???
+  n1: 18084 0x0: ???
+   n0: 17508 in 15 places, all below massif's threshold (1.00%)
+  n0: 14368 0x249DCE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+ n5: 375146 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 204800 0x6D5D42E: ???
+   n1: 204800 0x369C587948A4EAFE: ???
+    n0: 204800 in 35 places, all below massif's threshold (1.00%)
+  n0: 45418 in 41 places, all below massif's threshold (1.00%)
+  n1: 32768 0xA: ???
+   n1: 32768 0x369C587948A4EAFE: ???
+    n0: 32768 in 18 places, all below massif's threshold (1.00%)
+  n1: 32768 0x4523FE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n1: 32768 0x369C587948A4EAFE: ???
+    n1: 32768 0x6D4D5C6: ???
+     n1: 32768 0x242374: ??? (in /home/jacek/anaconda3/bin/python3.7)
+      n1: 32768 0x6D96206: ???
+       n0: 32768 0x369C587948A4EAFE: ???
+  n1: 16384 0x407762E: ???
+   n1: 16384 0x369C587948A4EAFE: ???
+    n0: 16384 in 2 places, all below massif's threshold (1.00%)
+ n0: 35684 in 42 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=175914491
+mem_heap_B=1248848
+mem_heap_extra_B=9336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=182464500
+mem_heap_B=1281792
+mem_heap_extra_B=9360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=190895795
+mem_heap_B=1290104
+mem_heap_extra_B=9400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=199945157
+mem_heap_B=1312544
+mem_heap_extra_B=9464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=207313375
+mem_heap_B=1328616
+mem_heap_extra_B=9472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=212674573
+mem_heap_B=1315632
+mem_heap_extra_B=9456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=218150695
+mem_heap_B=1318072
+mem_heap_extra_B=9496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=226439828
+mem_heap_B=1336752
+mem_heap_extra_B=9512
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=231857550
+mem_heap_B=1372024
+mem_heap_extra_B=9536
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1372024 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n8: 847994 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 419836 in 574 places, all below massif's threshold (1.00%)
+  n1: 147488 0x418362E: ???
+   n1: 147488 0x27E1F4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 147488 0x40660D6: ???
+     n1: 147488 0x1553: ???
+      n1: 147488 0x1FFE: ???
+       n1: 147488 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 147488 0x72656B72616D5D: ???
+         n1: 147488 0x3FFE: ???
+          n1: 147488 0x418362E: ???
+           n1: 147488 0x4188D1E: ???
+            n1: 147488 0xFFFFFFFFFFFFFFFD: ???
+             n1: 147488 0x5E357DE: ???
+              n1: 147488 0x4188D1E: ???
+               n1: 147488 0x9C0: ???
+                n1: 147488 0xA6DA7D1F86A0869B: ???
+                 n0: 147488 0x26622D: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 72196 0x5E3017E: ???
+  n1: 27914 0x40660D6: ???
+   n0: 27914 in 29 places, all below massif's threshold (1.00%)
+  n2: 21512 0xFFFFFFFFFFFFFFFD: ???
+   n1: 16504 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n0: 16504 in 9 places, all below massif's threshold (1.00%)
+   n0: 5008 in 1 place, below massif's threshold (1.00%)
+  n1: 18456 0x41697EE: ???
+   n1: 18456 0x4179896: ???
+    n1: 18456 0x415BDC6: ???
+     n1: 18456 0x2A8: ???
+      n1: 18456 0x3FE: ???
+       n1: 18456 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 18456 0x43709E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 18456 0x7FE: ???
+          n1: 18456 0x4098C26: ???
+           n1: 18456 0x41697EE: ???
+            n1: 18456 0x5E27C76: ???
+             n1: 18456 0x415BDC6: ???
+              n1: 18456 0x5B1E75122BD9354D: ???
+               n1: 18456 0xFFFFFFFFFFFFFFFD: ???
+                n1: 18456 0x5E541A6: ???
+                 n1: 18456 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 18456 0x5E54036: ???
+                   n0: 18456 0x40A4946: ???
+  n1: 18084 0x0: ???
+   n0: 17508 in 15 places, all below massif's threshold (1.00%)
+  n0: 14368 0x249DCE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+ n5: 487786 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 294912 0x6D5D42E: ???
+   n1: 294912 0x369C587948A4EAFE: ???
+    n0: 294912 in 63 places, all below massif's threshold (1.00%)
+  n1: 53248 0xA: ???
+   n1: 53248 0x369C587948A4EAFE: ???
+    n0: 53248 in 38 places, all below massif's threshold (1.00%)
+  n0: 41322 in 57 places, all below massif's threshold (1.00%)
+  n1: 32768 0x4523FE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n1: 32768 0x369C587948A4EAFE: ???
+    n1: 32768 0x6D4D5C6: ???
+     n1: 32768 0x242374: ??? (in /home/jacek/anaconda3/bin/python3.7)
+      n1: 32768 0x6D96206: ???
+       n0: 32768 0x369C587948A4EAFE: ???
+  n1: 16384 0x407762E: ???
+   n1: 16384 0x369C587948A4EAFE: ???
+    n0: 16384 in 2 places, all below massif's threshold (1.00%)
+ n0: 36244 in 42 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=237519404
+mem_heap_B=1363456
+mem_heap_extra_B=9560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=243527428
+mem_heap_B=1386384
+mem_heap_extra_B=9552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=249009641
+mem_heap_B=1388432
+mem_heap_extra_B=9560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=254467110
+mem_heap_B=1371008
+mem_heap_extra_B=9576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=260522176
+mem_heap_B=1403840
+mem_heap_extra_B=9608
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1403840 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n8: 848530 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 420372 in 593 places, all below massif's threshold (1.00%)
+  n1: 147488 0x418362E: ???
+   n1: 147488 0x27E1F4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 147488 0x40660D6: ???
+     n1: 147488 0x1553: ???
+      n1: 147488 0x1FFE: ???
+       n1: 147488 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 147488 0x72656B72616D5D: ???
+         n1: 147488 0x3FFE: ???
+          n1: 147488 0x418362E: ???
+           n1: 147488 0x4188D1E: ???
+            n1: 147488 0xFFFFFFFFFFFFFFFD: ???
+             n1: 147488 0x5E357DE: ???
+              n1: 147488 0x4188D1E: ???
+               n1: 147488 0x9C0: ???
+                n1: 147488 0xA6DA7D1F86A0869B: ???
+                 n0: 147488 0x26622D: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 72196 0x5E3017E: ???
+  n1: 27914 0x40660D6: ???
+   n0: 27914 in 29 places, all below massif's threshold (1.00%)
+  n2: 21512 0xFFFFFFFFFFFFFFFD: ???
+   n1: 16504 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n0: 16504 in 9 places, all below massif's threshold (1.00%)
+   n0: 5008 in 1 place, below massif's threshold (1.00%)
+  n1: 18456 0x41697EE: ???
+   n1: 18456 0x4179896: ???
+    n1: 18456 0x415BDC6: ???
+     n1: 18456 0x2A8: ???
+      n1: 18456 0x3FE: ???
+       n1: 18456 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 18456 0x43709E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 18456 0x7FE: ???
+          n1: 18456 0x4098C26: ???
+           n1: 18456 0x41697EE: ???
+            n1: 18456 0x5E27C76: ???
+             n1: 18456 0x415BDC6: ???
+              n1: 18456 0x5B1E75122BD9354D: ???
+               n1: 18456 0xFFFFFFFFFFFFFFFD: ???
+                n1: 18456 0x5E541A6: ???
+                 n1: 18456 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 18456 0x5E54036: ???
+                   n0: 18456 0x40A4946: ???
+  n1: 18084 0x0: ???
+   n0: 17508 in 15 places, all below massif's threshold (1.00%)
+  n0: 14368 0x249DCE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+ n5: 518506 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 323584 0x6D5D42E: ???
+   n1: 323584 0x369C587948A4EAFE: ???
+    n0: 323584 in 80 places, all below massif's threshold (1.00%)
+  n1: 53248 0xA: ???
+   n1: 53248 0x369C587948A4EAFE: ???
+    n0: 53248 in 50 places, all below massif's threshold (1.00%)
+  n0: 41322 in 62 places, all below massif's threshold (1.00%)
+  n1: 32768 0x4523FE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n1: 32768 0x369C587948A4EAFE: ???
+    n1: 32768 0x6D4D5C6: ???
+     n1: 32768 0x242374: ??? (in /home/jacek/anaconda3/bin/python3.7)
+      n1: 32768 0x6D96206: ???
+       n0: 32768 0x369C587948A4EAFE: ???
+  n1: 16384 0x407762E: ???
+   n1: 16384 0x369C587948A4EAFE: ???
+    n0: 16384 in 2 places, all below massif's threshold (1.00%)
+ n0: 36804 in 42 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=269301227
+mem_heap_B=1419712
+mem_heap_extra_B=9608
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1419712 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n8: 843362 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 415204 in 595 places, all below massif's threshold (1.00%)
+  n1: 147488 0x418362E: ???
+   n1: 147488 0x27E1F4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 147488 0x40660D6: ???
+     n1: 147488 0x1553: ???
+      n1: 147488 0x1FFE: ???
+       n1: 147488 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 147488 0x72656B72616D5D: ???
+         n1: 147488 0x3FFE: ???
+          n1: 147488 0x418362E: ???
+           n1: 147488 0x4188D1E: ???
+            n1: 147488 0xFFFFFFFFFFFFFFFD: ???
+             n1: 147488 0x5E357DE: ???
+              n1: 147488 0x4188D1E: ???
+               n1: 147488 0x9C0: ???
+                n1: 147488 0xA6DA7D1F86A0869B: ???
+                 n0: 147488 0x26622D: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 72196 0x5E3017E: ???
+  n1: 27914 0x40660D6: ???
+   n0: 27914 in 29 places, all below massif's threshold (1.00%)
+  n2: 21512 0xFFFFFFFFFFFFFFFD: ???
+   n1: 16504 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n0: 16504 in 9 places, all below massif's threshold (1.00%)
+   n0: 5008 in 1 place, below massif's threshold (1.00%)
+  n1: 18456 0x41697EE: ???
+   n1: 18456 0x4179896: ???
+    n1: 18456 0x415BDC6: ???
+     n1: 18456 0x2A8: ???
+      n1: 18456 0x3FE: ???
+       n1: 18456 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 18456 0x43709E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 18456 0x7FE: ???
+          n1: 18456 0x4098C26: ???
+           n1: 18456 0x41697EE: ???
+            n1: 18456 0x5E27C76: ???
+             n1: 18456 0x415BDC6: ???
+              n1: 18456 0x5B1E75122BD9354D: ???
+               n1: 18456 0xFFFFFFFFFFFFFFFD: ???
+                n1: 18456 0x5E541A6: ???
+                 n1: 18456 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 18456 0x5E54036: ???
+                   n0: 18456 0x40A4946: ???
+  n1: 18084 0x0: ???
+   n0: 17508 in 15 places, all below massif's threshold (1.00%)
+  n0: 14368 0x249DCE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+ n5: 538986 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 342016 0x6D5D42E: ???
+   n1: 342016 0x369C587948A4EAFE: ???
+    n0: 342016 in 84 places, all below massif's threshold (1.00%)
+  n1: 57344 0xA: ???
+   n1: 57344 0x369C587948A4EAFE: ???
+    n0: 57344 in 52 places, all below massif's threshold (1.00%)
+  n0: 49514 in 63 places, all below massif's threshold (1.00%)
+  n1: 32768 0x4523FE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n1: 32768 0x369C587948A4EAFE: ???
+    n1: 32768 0x6D4D5C6: ???
+     n1: 32768 0x242374: ??? (in /home/jacek/anaconda3/bin/python3.7)
+      n1: 32768 0x6D96206: ???
+       n0: 32768 0x369C587948A4EAFE: ???
+  n1: 16384 0x407762E: ???
+   n1: 16384 0x369C587948A4EAFE: ???
+    n0: 16384 in 2 places, all below massif's threshold (1.00%)
+ n0: 37364 in 42 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=274898892
+mem_heap_B=1419704
+mem_heap_extra_B=9664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=284372003
+mem_heap_B=1437928
+mem_heap_extra_B=9664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=289929087
+mem_heap_B=1444848
+mem_heap_extra_B=9656
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=296274088
+mem_heap_B=1470120
+mem_heap_extra_B=9712
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1470120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 846106 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 431244 in 619 places, all below massif's threshold (1.00%)
+  n1: 147488 0x418362E: ???
+   n1: 147488 0x27E1F4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 147488 0x40660D6: ???
+     n1: 147488 0x1553: ???
+      n1: 147488 0x1FFE: ???
+       n1: 147488 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 147488 0x72656B72616D5D: ???
+         n1: 147488 0x3FFE: ???
+          n1: 147488 0x418362E: ???
+           n1: 147488 0x4188D1E: ???
+            n1: 147488 0xFFFFFFFFFFFFFFFD: ???
+             n1: 147488 0x5E357DE: ???
+              n1: 147488 0x4188D1E: ???
+               n1: 147488 0x9C0: ???
+                n1: 147488 0xA6DA7D1F86A0869B: ???
+                 n0: 147488 0x26622D: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 72196 0x5E3017E: ???
+  n1: 27914 0x40660D6: ???
+   n0: 27914 in 29 places, all below massif's threshold (1.00%)
+  n2: 21512 0xFFFFFFFFFFFFFFFD: ???
+   n1: 16504 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n0: 16504 in 9 places, all below massif's threshold (1.00%)
+   n0: 5008 in 1 place, below massif's threshold (1.00%)
+  n1: 18456 0x41697EE: ???
+   n1: 18456 0x4179896: ???
+    n1: 18456 0x415BDC6: ???
+     n1: 18456 0x2A8: ???
+      n1: 18456 0x3FE: ???
+       n1: 18456 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 18456 0x43709E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 18456 0x7FE: ???
+          n1: 18456 0x4098C26: ???
+           n1: 18456 0x41697EE: ???
+            n1: 18456 0x5E27C76: ???
+             n1: 18456 0x415BDC6: ???
+              n1: 18456 0x5B1E75122BD9354D: ???
+               n1: 18456 0xFFFFFFFFFFFFFFFD: ???
+                n1: 18456 0x5E541A6: ???
+                 n1: 18456 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 18456 0x5E54036: ???
+                   n0: 18456 0x40A4946: ???
+  n1: 18084 0x0: ???
+   n0: 17508 in 15 places, all below massif's threshold (1.00%)
+ n5: 586090 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 378880 0x6D5D42E: ???
+   n1: 378880 0x369C587948A4EAFE: ???
+    n0: 378880 in 101 places, all below massif's threshold (1.00%)
+  n1: 65536 0xA: ???
+   n1: 65536 0x369C587948A4EAFE: ???
+    n0: 65536 in 65 places, all below massif's threshold (1.00%)
+  n0: 41322 in 71 places, all below massif's threshold (1.00%)
+  n1: 32768 0x4523FE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n1: 32768 0x369C587948A4EAFE: ???
+    n1: 32768 0x6D4D5C6: ???
+     n1: 32768 0x242374: ??? (in /home/jacek/anaconda3/bin/python3.7)
+      n1: 32768 0x6D96206: ???
+       n0: 32768 0x369C587948A4EAFE: ???
+  n1: 16384 0x407762E: ???
+   n1: 16384 0x369C587948A4EAFE: ???
+    n0: 16384 in 2 places, all below massif's threshold (1.00%)
+ n0: 37924 in 42 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=301550782
+mem_heap_B=1486880
+mem_heap_extra_B=9744
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1486880 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 844434 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 429572 in 622 places, all below massif's threshold (1.00%)
+  n1: 147488 0x418362E: ???
+   n1: 147488 0x27E1F4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 147488 0x40660D6: ???
+     n1: 147488 0x1553: ???
+      n1: 147488 0x1FFE: ???
+       n1: 147488 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 147488 0x72656B72616D5D: ???
+         n1: 147488 0x3FFE: ???
+          n1: 147488 0x418362E: ???
+           n1: 147488 0x4188D1E: ???
+            n1: 147488 0xFFFFFFFFFFFFFFFD: ???
+             n1: 147488 0x5E357DE: ???
+              n1: 147488 0x4188D1E: ???
+               n1: 147488 0x9C0: ???
+                n1: 147488 0xA6DA7D1F86A0869B: ???
+                 n0: 147488 0x26622D: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 72196 0x5E3017E: ???
+  n1: 27914 0x40660D6: ???
+   n0: 27914 in 29 places, all below massif's threshold (1.00%)
+  n2: 21512 0xFFFFFFFFFFFFFFFD: ???
+   n1: 16504 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n0: 16504 in 9 places, all below massif's threshold (1.00%)
+   n0: 5008 in 1 place, below massif's threshold (1.00%)
+  n1: 18456 0x41697EE: ???
+   n1: 18456 0x4179896: ???
+    n1: 18456 0x415BDC6: ???
+     n1: 18456 0x2A8: ???
+      n1: 18456 0x3FE: ???
+       n1: 18456 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 18456 0x43709E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 18456 0x7FE: ???
+          n1: 18456 0x4098C26: ???
+           n1: 18456 0x41697EE: ???
+            n1: 18456 0x5E27C76: ???
+             n1: 18456 0x415BDC6: ???
+              n1: 18456 0x5B1E75122BD9354D: ???
+               n1: 18456 0xFFFFFFFFFFFFFFFD: ???
+                n1: 18456 0x5E541A6: ???
+                 n1: 18456 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 18456 0x5E54036: ???
+                   n0: 18456 0x40A4946: ???
+  n1: 18084 0x0: ???
+   n0: 17508 in 15 places, all below massif's threshold (1.00%)
+ n5: 604522 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 397312 0x6D5D42E: ???
+   n1: 397312 0x369C587948A4EAFE: ???
+    n0: 397312 in 105 places, all below massif's threshold (1.00%)
+  n1: 69632 0xA: ???
+   n1: 69632 0x369C587948A4EAFE: ???
+    n0: 69632 in 67 places, all below massif's threshold (1.00%)
+  n0: 45418 in 71 places, all below massif's threshold (1.00%)
+  n1: 32768 0x4523FE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n1: 32768 0x369C587948A4EAFE: ???
+    n1: 32768 0x6D4D5C6: ???
+     n1: 32768 0x242374: ??? (in /home/jacek/anaconda3/bin/python3.7)
+      n1: 32768 0x6D96206: ???
+       n0: 32768 0x369C587948A4EAFE: ???
+  n1: 16384 0x407762E: ???
+   n1: 16384 0x369C587948A4EAFE: ???
+    n0: 16384 in 2 places, all below massif's threshold (1.00%)
+ n0: 37924 in 42 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=307566064
+mem_heap_B=1507896
+mem_heap_extra_B=9792
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1507896 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 844970 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 429572 in 624 places, all below massif's threshold (1.00%)
+  n1: 147488 0x418362E: ???
+   n1: 147488 0x27E1F4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 147488 0x40660D6: ???
+     n1: 147488 0x1553: ???
+      n1: 147488 0x1FFE: ???
+       n1: 147488 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 147488 0x72656B72616D5D: ???
+         n1: 147488 0x3FFE: ???
+          n1: 147488 0x418362E: ???
+           n1: 147488 0x4188D1E: ???
+            n1: 147488 0xFFFFFFFFFFFFFFFD: ???
+             n1: 147488 0x5E357DE: ???
+              n1: 147488 0x4188D1E: ???
+               n1: 147488 0x9C0: ???
+                n1: 147488 0xA6DA7D1F86A0869B: ???
+                 n0: 147488 0x26622D: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 72196 0x5E3017E: ???
+  n1: 27914 0x40660D6: ???
+   n0: 27914 in 29 places, all below massif's threshold (1.00%)
+  n2: 21512 0xFFFFFFFFFFFFFFFD: ???
+   n1: 16504 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n0: 16504 in 9 places, all below massif's threshold (1.00%)
+   n0: 5008 in 1 place, below massif's threshold (1.00%)
+  n1: 18456 0x41697EE: ???
+   n1: 18456 0x4179896: ???
+    n1: 18456 0x415BDC6: ???
+     n1: 18456 0x2A8: ???
+      n1: 18456 0x3FE: ???
+       n1: 18456 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 18456 0x43709E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 18456 0x7FE: ???
+          n1: 18456 0x4098C26: ???
+           n1: 18456 0x41697EE: ???
+            n1: 18456 0x5E27C76: ???
+             n1: 18456 0x415BDC6: ???
+              n1: 18456 0x5B1E75122BD9354D: ???
+               n1: 18456 0xFFFFFFFFFFFFFFFD: ???
+                n1: 18456 0x5E541A6: ???
+                 n1: 18456 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 18456 0x5E54036: ???
+                   n0: 18456 0x40A4946: ???
+  n1: 18084 0x0: ???
+   n0: 17508 in 15 places, all below massif's threshold (1.00%)
+ n5: 625002 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 415744 0x6D5D42E: ???
+   n1: 415744 0x369C587948A4EAFE: ???
+    n0: 415744 in 109 places, all below massif's threshold (1.00%)
+  n1: 71680 0xA: ???
+   n1: 71680 0x369C587948A4EAFE: ???
+    n0: 71680 in 69 places, all below massif's threshold (1.00%)
+  n0: 45418 in 72 places, all below massif's threshold (1.00%)
+  n1: 32768 0x4523FE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n1: 32768 0x369C587948A4EAFE: ???
+    n1: 32768 0x6D4D5C6: ???
+     n1: 32768 0x242374: ??? (in /home/jacek/anaconda3/bin/python3.7)
+      n1: 32768 0x6D96206: ???
+       n0: 32768 0x369C587948A4EAFE: ???
+  n1: 16384 0x407762E: ???
+   n1: 16384 0x369C587948A4EAFE: ???
+    n0: 16384 in 2 places, all below massif's threshold (1.00%)
+ n0: 37924 in 42 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=312993960
+mem_heap_B=1495608
+mem_heap_extra_B=9792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=318355908
+mem_heap_B=1519840
+mem_heap_extra_B=9984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=325872548
+mem_heap_B=1580592
+mem_heap_extra_B=10456
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1580592 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 856226 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 439756 in 650 places, all below massif's threshold (1.00%)
+  n1: 147488 0x418362E: ???
+   n1: 147488 0x27E1F4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 147488 0x40660D6: ???
+     n1: 147488 0x1553: ???
+      n1: 147488 0x1FFE: ???
+       n1: 147488 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 147488 0x72656B72616D5D: ???
+         n1: 147488 0x3FFE: ???
+          n1: 147488 0x418362E: ???
+           n1: 147488 0x4188D1E: ???
+            n1: 147488 0xFFFFFFFFFFFFFFFD: ???
+             n1: 147488 0x5E357DE: ???
+              n1: 147488 0x4188D1E: ???
+               n1: 147488 0x9C0: ???
+                n1: 147488 0xA6DA7D1F86A0869B: ???
+                 n0: 147488 0x26622D: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 72196 0x5E3017E: ???
+  n1: 27914 0x40660D6: ???
+   n0: 27914 in 29 places, all below massif's threshold (1.00%)
+  n2: 21512 0xFFFFFFFFFFFFFFFD: ???
+   n1: 16504 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n0: 16504 in 9 places, all below massif's threshold (1.00%)
+   n0: 5008 in 1 place, below massif's threshold (1.00%)
+  n1: 18620 0x0: ???
+   n0: 18044 in 16 places, all below massif's threshold (1.00%)
+  n1: 18456 0x41697EE: ???
+   n1: 18456 0x4179896: ???
+    n1: 18456 0x415BDC6: ???
+     n1: 18456 0x2A8: ???
+      n1: 18456 0x3FE: ???
+       n1: 18456 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 18456 0x43709E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 18456 0x7FE: ???
+          n1: 18456 0x4098C26: ???
+           n1: 18456 0x41697EE: ???
+            n1: 18456 0x5E27C76: ???
+             n1: 18456 0x415BDC6: ???
+              n1: 18456 0x5B1E75122BD9354D: ???
+               n1: 18456 0xFFFFFFFFFFFFFFFD: ???
+                n1: 18456 0x5E541A6: ???
+                 n1: 18456 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 18456 0x5E54036: ???
+                   n0: 18456 0x40A4946: ???
+ n5: 686442 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 415744 0x6D5D42E: ???
+   n1: 415744 0x369C587948A4EAFE: ???
+    n0: 415744 in 118 places, all below massif's threshold (1.00%)
+  n1: 107520 0xA: ???
+   n1: 107520 0x369C587948A4EAFE: ???
+    n0: 107520 in 121 places, all below massif's threshold (1.00%)
+  n0: 81258 in 84 places, all below massif's threshold (1.00%)
+  n1: 32768 0x4523FE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n1: 32768 0x369C587948A4EAFE: ???
+    n1: 32768 0x6D4D5C6: ???
+     n1: 32768 0x242374: ??? (in /home/jacek/anaconda3/bin/python3.7)
+      n1: 32768 0x6D96206: ???
+       n0: 32768 0x369C587948A4EAFE: ???
+  n1: 16384 0x407762E: ???
+   n1: 16384 0x369C587948A4EAFE: ???
+    n0: 16384 in 2 places, all below massif's threshold (1.00%)
+ n0: 37924 in 42 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=327704347
+mem_heap_B=1596584
+mem_heap_extra_B=10608
+mem_stacks_B=0
+heap_tree=peak
+n3: 1596584 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 858906 0x20F524: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 440828 in 651 places, all below massif's threshold (1.00%)
+  n1: 147488 0x418362E: ???
+   n1: 147488 0x27E1F4: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n1: 147488 0x40660D6: ???
+     n1: 147488 0x1553: ???
+      n1: 147488 0x1FFE: ???
+       n1: 147488 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 147488 0x72656B72616D5D: ???
+         n1: 147488 0x3FFE: ???
+          n1: 147488 0x418362E: ???
+           n1: 147488 0x4188D1E: ???
+            n1: 147488 0xFFFFFFFFFFFFFFFD: ???
+             n1: 147488 0x5E357DE: ???
+              n1: 147488 0x4188D1E: ???
+               n1: 147488 0x9C0: ???
+                n1: 147488 0xA6DA7D1F86A0869B: ???
+                 n0: 147488 0x26622D: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n0: 72196 0x5E3017E: ???
+  n1: 27914 0x40660D6: ???
+   n0: 27914 in 29 places, all below massif's threshold (1.00%)
+  n2: 21512 0xFFFFFFFFFFFFFFFD: ???
+   n1: 16504 0x247925: ??? (in /home/jacek/anaconda3/bin/python3.7)
+    n0: 16504 in 9 places, all below massif's threshold (1.00%)
+   n0: 5008 in 1 place, below massif's threshold (1.00%)
+  n1: 18620 0x0: ???
+   n0: 18044 in 16 places, all below massif's threshold (1.00%)
+  n1: 18456 0x41697EE: ???
+   n1: 18456 0x4179896: ???
+    n1: 18456 0x415BDC6: ???
+     n1: 18456 0x2A8: ???
+      n1: 18456 0x3FE: ???
+       n1: 18456 0x26510E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+        n1: 18456 0x43709E: ??? (in /home/jacek/anaconda3/bin/python3.7)
+         n1: 18456 0x7FE: ???
+          n1: 18456 0x4098C26: ???
+           n1: 18456 0x41697EE: ???
+            n1: 18456 0x5E27C76: ???
+             n1: 18456 0x415BDC6: ???
+              n1: 18456 0x5B1E75122BD9354D: ???
+               n1: 18456 0xFFFFFFFFFFFFFFFD: ???
+                n1: 18456 0x5E541A6: ???
+                 n1: 18456 0x27FCD9: ??? (in /home/jacek/anaconda3/bin/python3.7)
+                  n1: 18456 0x5E54036: ???
+                   n0: 18456 0x40A4946: ???
+ n5: 699754 0x20D757: ??? (in /home/jacek/anaconda3/bin/python3.7)
+  n1: 415744 0x6D5D42E: ???
+   n1: 415744 0x369C587948A4EAFE: ???
+    n0: 415744 in 118 places, all below massif's threshold (1.00%)
+  n1: 112640 0xA: ???
+   n1: 112640 0x369C587948A4EAFE: ???
+    n0: 112640 in 131 places, all below massif's threshold (1.00%)
+  n0: 89450 in 86 places, all below massif's threshold (1.00%)
+  n1: 32768 0x4523FE: ??? (in /home/jacek/anaconda3/bin/python3.7)
+   n1: 32768 0x369C587948A4EAFE: ???
+    n1: 32768 0x6D4D5C6: ???
+     n1: 32768 0x242374: ??? (in /home/jacek/anaconda3/bin/python3.7)
+      n1: 32768 0x6D96206: ???
+       n0: 32768 0x369C587948A4EAFE: ???
+  n1: 16384 0x407762E: ???
+   n1: 16384 0x369C587948A4EAFE: ???
+    n0: 16384 in 2 places, all below massif's threshold (1.00%)
+ n0: 37924 in 42 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=331143169
+mem_heap_B=1208680
+mem_heap_extra_B=9904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=335545242
+mem_heap_B=852768
+mem_heap_extra_B=8568
+mem_stacks_B=0
+heap_tree=empty
