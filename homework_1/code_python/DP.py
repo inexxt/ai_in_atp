@@ -1,6 +1,8 @@
 import sys
-from .common import *
-
+try:
+    from .common import *
+except:
+    from common import *
 
 def resolution(S: CNF, lits: LIT):
     #  choose a literal l and split the set of clauses S into a

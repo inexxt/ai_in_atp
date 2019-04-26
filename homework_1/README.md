@@ -14,12 +14,12 @@ Testing is done in `test.sh` script, which:
  - Runs UNSAT tests for DPLL (uuf50-218: 50 variables, 218 clauses - 1000 instances, all unsat)
  - Runs SAT/UNSAT tests for DP and DPLL, comparing their outputs
 
-It is done this way, because our implementation of DP for some reason seems to very slow, and it prevents one from testing it on any of the *proper* datasets from SATLIB. So, we test it only on some small, artificially generated data, and assume that DPLL is the ground truth (because it was tested with proper data from SATLIB).
+It is done this way, because our implementation of DP for some reason seems to be very slow, and it prevents one from testing it on any of the *proper* datasets from SATLIB. So, we test it only on some small, artificially generated data, and assume that DPLL is the ground truth (because it was tested with proper data from SATLIB).
 
 Concerning time and memory usage, our implementation of DPLL is comparably fast on small examples that both algorithms can evaluate. But, on larger examples (these taken from SATLIB), DP does not terminate and consumes all available memory, while DPLL takes about 0.04s and 1MB of memory (measured with `valgrind massif`), but comparing it across examples, it seems that most of it is memory allocated by python interpreter.
 
 
 ### PART 2
 
-Part 2 is described in [here](http://localhost:8890/notebooks/PART_2a.ipynb)
+Part 2 is described in [here](https://github.com/inexxt/ai_in_atp/blob/master/homework_1/PART_2.ipynb) as an interactive ipython notebook.
 

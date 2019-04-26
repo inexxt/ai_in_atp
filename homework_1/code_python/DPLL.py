@@ -1,5 +1,9 @@
 import sys
-from .common import *
+try:
+    from .common import *
+except:
+    from common import *
+    
 from copy import deepcopy
 
 def DPLL(S: CNF, lits: LIT):
