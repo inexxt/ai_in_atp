@@ -1,15 +1,13 @@
 from typing import Set
 import sys
+from collections import defaultdict
 
 CNF = Set[Set[int]]
 LIT = Set[int]
 
 
 def remove_lits(S: CNF, lits_to_remove: LIT):
-    for C in S:
-        if C & lits_to_remove:
-            S.remove(C)
-            S.add(C - lits_to_remove)
+    return {C - lits_to_remove for C in S}
 
 
 def unit_clause(S: CNF, lits: LIT):
@@ -19,7 +17,7 @@ def unit_clause(S: CNF, lits: LIT):
     get_single = lambda C: next(iter(C))
 
     singles = {get_single(C) for C in S if len(C) == 1}
-    remove_lits(S, {-l for l in singles})
+    S = remove_lits(S, {-l for l in singles})
     
     return {C for C in S if not (singles & C)}, lits - singles
     
@@ -29,16 +27,16 @@ def pure_literal(S: CNF, lits: LIT):
     #  or only negatively, remove all clauses containing it
 
     sign = lambda x: 1 if x >= 0 else 0
-
-    counts = {l: [0, 0] for l in lits}
+    counts = defaultdict(int)
     for C in S:
         for l in C:
-            counts[abs(l)][sign(l)] += 1
+            
+            counts[l] += 1
 
-    lits_to_remove = {l for l, c in counts.items() if c[0] == 0 or c[1] == 0}
+    lits_to_remove = {l for l, c in counts.items() if -l not in counts}
 
-    remove_lits(S, lits_to_remove)
-    return S, lits - lits_to_remove
+    S = {C for C in S if not (C & lits_to_remove)}
+    return S, lits - {abs(l) for l in lits_to_remove}
 
 
 def tautology(S: CNF, lits: LIT):
