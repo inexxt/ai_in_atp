@@ -32,7 +32,7 @@ def DF(S: CNF, lits: LIT):
                 if check_for_empty(S):
                     return "UNSAT"
 
-        print("S ", len(S), "lits ", len(lits))
+        # print("S ", len(S), "lits ", len(lits))
         S, lits = resolution(S, lits)
 
 
