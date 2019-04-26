@@ -21,5 +21,4 @@ Concerning time and memory usage, our implementation of DPLL is comparably fast 
 
 ### PART 2
 
-Part 2 is described in [PART_2.ipynb](https://github.com/inexxt/ai_in_atp/blob/master/homework_1/PART_2.ipynb) as an interactive ipython notebook.
-
+Part 2 is described in [PART_2.ipynb](https://github.com/inexxt/ai_in_atp/blob/master/homework_1/PART_2.ipynb) ((alternative link)[https://mybinder.org/v2/gh/inexxt/ai_in_atp/master?filepath=homework_1%2FPART_2.ipynb]) as an interactive ipython notebook.
